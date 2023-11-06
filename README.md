@@ -35,17 +35,19 @@ To get a local copy up and running, follow these simple steps:
    ```sh
    git clone https://github.com/GavinEwart/Counter.git
 
-2. Install the required dependencies by running the following command in your project directory:
-  sh
-  pipenv install
+2. Add clone into your VScode and open in an integrated terminal
 
-3. Start your shell
-  sh
-  pipenv shell
+3. Install the required dependencies by running the following command in your project directory:
+   ```sh
+   pipenv install
+
+4. Start your shell
+   ```sh
+   pipenv shell
 
 5. Start the Flask application:
-  sh
-  python server.py
+   ```sh
+   python server.py
   
 6. Open your web browser and navigate to http://localhost:5000 to interact with the counter.
 
